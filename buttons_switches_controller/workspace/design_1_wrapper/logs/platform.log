@@ -1,0 +1,1423 @@
+TRACE::2023-04-15.17:15:10::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:10::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:10::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:10::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:10::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:10::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:10::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-04-15.17:15:12::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-04-15.17:15:12::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2023-04-15.17:15:12::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-04-15.17:15:12::SCWDomain::checking for install qemu data   : 
+TRACE::2023-04-15.17:15:12::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-04-15.17:15:12::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:12::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2023-04-15.17:15:12::SCWPlatform::Generating the sources  .
+TRACE::2023-04-15.17:15:12::SCWBDomain::Generating boot domain sources.
+TRACE::2023-04-15.17:15:12::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:12::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:12::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-04-15.17:15:12::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:12::SCWMssOS::mss does not exists at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:12::SCWMssOS::Creating sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:12::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:12::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:12::SCWMssOS::Writing mss at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:12::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-04-15.17:15:12::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-15.17:15:12::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-15.17:15:12::SCWBDomain::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-04-15.17:15:21::SCWPlatform::Generating sources Done.
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-04-15.17:15:21::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::mss exists loading the mss file  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Opened the sw design from mss  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Adding the swdes entry C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-04-15.17:15:21::SCWMssOS::updating the scw layer about changes
+TRACE::2023-04-15.17:15:21::SCWMssOS::Opened the sw design.  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:21::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:21::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:21::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:21::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:21::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"7293724d68c0928731d319c873b1749f",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-04-15.17:15:21::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:21::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:21::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:21::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:21::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:21::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"7293724d68c0928731d319c873b1749f",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWDomain::checking for install qemu data   : 
+TRACE::2023-04-15.17:15:21::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-04-15.17:15:21::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:21::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:21::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:21::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::mss does not exists at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Creating sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Writing mss at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:21::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-04-15.17:15:21::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-15.17:15:21::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-15.17:15:21::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-04-15.17:15:21::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-04-15.17:15:23::SCWMssOS::Writing the mss file completed C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"7293724d68c0928731d319c873b1749f",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9eb395db2075f0aac65cc137f6e765dc",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-04-15.17:15:23::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-04-15.17:15:23::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-04-15.17:15:23::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-04-15.17:15:23::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-04-15.17:15:23::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-04-15.17:15:23::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-04-15.17:15:23::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-04-15.17:15:23::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2023-04-15.17:15:23::SCWSystem::Not a boot domain 
+LOG::2023-04-15.17:15:23::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2023-04-15.17:15:23::SCWDomain::Generating domain artifcats
+TRACE::2023-04-15.17:15:23::SCWMssOS::Generating standalone artifcats
+TRACE::2023-04-15.17:15:23::SCWMssOS::Copying the qemu file from  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2023-04-15.17:15:23::SCWMssOS::Copying the qemu file from  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2023-04-15.17:15:23::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-04-15.17:15:23::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-04-15.17:15:23::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-04-15.17:15:23::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2023-04-15.17:15:23::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-04-15.17:15:23::SCWMssOS::Copying to export directory.
+TRACE::2023-04-15.17:15:23::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-04-15.17:15:23::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2023-04-15.17:15:23::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2023-04-15.17:15:23::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2023-04-15.17:15:23::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-04-15.17:15:23::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-04-15.17:15:23::SCWPlatform::Started preparing the platform 
+TRACE::2023-04-15.17:15:23::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-04-15.17:15:23::SCWSystem::dir created 
+TRACE::2023-04-15.17:15:23::SCWSystem::Writing the bif 
+TRACE::2023-04-15.17:15:23::SCWPlatform::Started writing the spfm file 
+TRACE::2023-04-15.17:15:23::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-04-15.17:15:23::SCWPlatform::Completed generating the platform
+TRACE::2023-04-15.17:15:23::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:23::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:23::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:23::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:23::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:23::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"7293724d68c0928731d319c873b1749f",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9eb395db2075f0aac65cc137f6e765dc",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-04-15.17:15:23::SCWPlatform::updated the xpfm file.
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"7293724d68c0928731d319c873b1749f",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9eb395db2075f0aac65cc137f6e765dc",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"7293724d68c0928731d319c873b1749f",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9eb395db2075f0aac65cc137f6e765dc",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-04-15.17:15:24::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-04-15.17:15:24::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-04-15.17:15:24::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-04-15.17:15:24::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2023-04-15.17:15:24::SCWDomain::Generating domain artifcats
+TRACE::2023-04-15.17:15:24::SCWMssOS::Generating standalone artifcats
+TRACE::2023-04-15.17:15:24::SCWMssOS::Copying the qemu file from  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2023-04-15.17:15:24::SCWMssOS::Copying the qemu file from  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2023-04-15.17:15:24::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-04-15.17:15:24::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-04-15.17:15:24::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-04-15.17:15:24::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2023-04-15.17:15:24::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-04-15.17:15:24::SCWMssOS::Copying to export directory.
+TRACE::2023-04-15.17:15:24::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-04-15.17:15:24::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2023-04-15.17:15:24::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2023-04-15.17:15:24::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2023-04-15.17:15:24::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-04-15.17:15:24::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-04-15.17:15:24::SCWPlatform::Started preparing the platform 
+TRACE::2023-04-15.17:15:24::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-04-15.17:15:24::SCWSystem::dir created 
+TRACE::2023-04-15.17:15:24::SCWSystem::Writing the bif 
+TRACE::2023-04-15.17:15:24::SCWPlatform::Started writing the spfm file 
+TRACE::2023-04-15.17:15:24::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-04-15.17:15:24::SCWPlatform::Completed generating the platform
+TRACE::2023-04-15.17:15:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-15.17:15:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-04-15.17:15:24::SCWPlatform:: Unique name xilinx:zedboard:exported_hw_platform:0.0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-04-15.17:15:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-15.17:15:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-15.17:15:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-04-15.17:15:24::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"7293724d68c0928731d319c873b1749f",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9eb395db2075f0aac65cc137f6e765dc",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-04-15.17:15:24::SCWPlatform::updated the xpfm file.

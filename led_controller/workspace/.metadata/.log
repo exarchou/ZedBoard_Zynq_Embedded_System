@@ -1,0 +1,3602 @@
+!SESSION 2023-04-16 16:58:33.503 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2023-04-16 16:59:17.968
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:25.769
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:25.774
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:25.782
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:25.784
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:27.990
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:27.990
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:27.991
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:27.992
+!MESSAGE XSCT Command: [setws C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:27.992
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2022.2/data]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 16:59:27.994
+!MESSAGE XSCT command with result: [setws C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace], Result: [null, ]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-16 17:00:11.047
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: , Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-16 17:00:11.047
+!MESSAGE Workspace path used is: C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-16 17:00:17.718
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2022.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:23.858
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:26.047
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:26.066
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:26.068
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Sun Apr 16 16:39:00 2023",
+"vivado_version": "2022.2",
+"part": "xc7z020clg484-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:26.071
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:26.082
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Result: [null, {"led_controller_0": {"hier_name": "led_controller_0",
+"type": "led_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:41.328
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:41.339
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:53.464
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:53.492
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program for baremetal environment.",
+"supp_proc": "microblaze psu_cortexa53 ps7_cortexa9 psv_cortexa72 psu_cortexr5 psv_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"empty_application": {"userdefname": "Empty Application(C)",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72 psxl_cortexr52 psx_cortexr52 psx_cortexa78 psxl_cortexa78",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"imgsel": {"userdefname": "Image Selector",
+"description": "ImgSel for Zynq Ultrascale+ MPSoC. The Image Selector  selects the image based on configuration parameters",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/imgsel",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"img_rcvry": {"userdefname": "Image Recovery",
+"description": "Image Recovery tool which writes  user selected images on the board.",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/img_rcvry",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5 psv_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc psxl_pmc psx_pmc",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm psxl_psm psx_psm",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:53.551
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:53.596
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:53.598
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:53.638
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:58.119
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:00:58.158
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:02.428
+!MESSAGE XSCT Command: [platform create -name {zynq_led_controller} -hw {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\zynq_led_controller.xsa} -out {C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace};platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:14.692
+!MESSAGE XSCT command with result: [platform create -name {zynq_led_controller} -hw {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\zynq_led_controller.xsa} -out {C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace};platform write], Result: [null, Successfully saved  the platform at "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/platform.spr"]. Thread: ModalContext
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-04-16 17:01:14.713
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.part.IntroPart.dispose(IntroPart.java:99)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.dispose(ViewIntroAdapterPart.java:153)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:260)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1002)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:967)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:200)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:176)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:491)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:954)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:115)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:945)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:187)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1406)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1537)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1496)
+	at org.eclipse.ui.internal.WorkbenchPage.hideView(WorkbenchPage.java:2609)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.closeIntro(WorkbenchIntroManager.java:98)
+	at com.xilinx.sdx.ui.utils.SWTUtils.closeWelcomeView(SWTUtils.java:529)
+	at com.xilinx.sdx.scw.project.ScwProjectCreationHandler$1.run(ScwProjectCreationHandler.java:71)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.execute(NewProjectCreationHandler.java:105)
+	at com.xilinx.sdx.npw.NewProjectWizard._createApplicationProject(NewProjectWizard.java:214)
+	at com.xilinx.sdx.npw.NewProjectWizard.performFinish(NewProjectWizard.java:161)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.xilinx.sdx.npw.OpenApplicationProjectWizardAction.run(OpenApplicationProjectWizardAction.java:27)
+	at com.xilinx.sdx.npw.OpenApplicationProjectWizardAction.clicked(OpenApplicationProjectWizardAction.java:44)
+	at com.xilinx.ide.product.intro.IDEIntroPart.createApplicationProject(IDEIntroPart.java:475)
+	at com.xilinx.ide.product.intro.IDEIntroPart$3.run(IDEIntroPart.java:274)
+	at com.xilinx.ide.product.intro.IDEIntroPart$12.mouseUp(IDEIntroPart.java:402)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:14.782
+!MESSAGE XSCT Command: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {empty_application}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.870
+!MESSAGE XSCT command with result: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {empty_application}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.875
+!MESSAGE XSCT Command: [platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.941
+!MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.956
+!MESSAGE XSCT Command: [platform active {zynq_led_controller}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.957
+!MESSAGE XSCT command with result: [platform active {zynq_led_controller}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.957
+!MESSAGE XSCT Command: [domain active {zynq_fsbl}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.958
+!MESSAGE XSCT command with result: [domain active {zynq_fsbl}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.961
+!MESSAGE XSCT Command: [domain active {standalone_ps7_cortexa9_0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.978
+!MESSAGE XSCT command with result: [domain active {standalone_ps7_cortexa9_0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:17.979
+!MESSAGE XSCT Command: [platform generate -quick], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:18.090
+!MESSAGE XSCT command with result: [platform generate -quick], Result: [null, Successfully generated platform at "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:19.483
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.271
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.272
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.282
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa], Result: [null, {"led_controller_0": {"hier_name": "led_controller_0",
+"type": "led_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.311
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.314
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.315
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.324
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.354
+!MESSAGE XSCT Command: [catch {platform remove zynq_led_controller}], Thread: Worker-4: Deleting platform 'zynq_led_controller'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.401
+!MESSAGE XSCT command with result: [catch {platform remove zynq_led_controller}], Result: [null, 0]. Thread: Worker-4: Deleting platform 'zynq_led_controller'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.608
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:22.609
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:29.550
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:01:29.820
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller1601800527249821129/zynq_led_controller.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-16 17:05:50.093
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2022.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:56.161
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:58.606
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:58.624
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:58.633
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Result: [null, {"led_controller_0": {"hier_name": "led_controller_0",
+"type": "led_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:58.688
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:58.705
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:58.708
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:05:58.709
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Sun Apr 16 16:39:00 2023",
+"vivado_version": "2022.2",
+"part": "xc7z020clg484-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:10.135
+!MESSAGE XSCT Command: [platform create -name {zynq_led_controller} -hw {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\zynq_led_controller.xsa} -proc {ps7_cortexa9_0} -os {standalone} -out {C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace};platform write], Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-16 17:06:10.847
+!MESSAGE Indexed 'zynq_led_controller' (4 sources, 3 headers) in 0,481 sec: 208 declarations; 3.099 references; 7 unresolved inclusions; 0 syntax errors; 7 unresolved names (0,21%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:25.496
+!MESSAGE XSCT command with result: [platform create -name {zynq_led_controller} -hw {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\zynq_led_controller.xsa} -proc {ps7_cortexa9_0} -os {standalone} -out {C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace};platform write], Result: [null, Successfully saved  the platform at "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:25.602
+!MESSAGE XSCT Command: [platform read {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\workspace\zynq_led_controller\platform.spr}], Thread: Worker-3: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:25.606
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Thread: Worker-7: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:28.875
+!MESSAGE XSCT command with result: [platform read {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\workspace\zynq_led_controller\platform.spr}], Result: [null, ]. Thread: Worker-3: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:28.876
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Result: [null, ]. Thread: Worker-7: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:28.876
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:06:28.894
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller11749641274689462932/zynq_led_controller.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-16 17:08:21.473
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2022.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:26.523
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:28.794
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:28.814
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:28.816
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Sun Apr 16 16:39:00 2023",
+"vivado_version": "2022.2",
+"part": "xc7z020clg484-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:28.817
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:28.828
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Result: [null, {"led_controller_0": {"hier_name": "led_controller_0",
+"type": "led_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:53.230
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:53.242
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:57.182
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:57.206
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program for baremetal environment.",
+"supp_proc": "microblaze psu_cortexa53 ps7_cortexa9 psv_cortexa72 psu_cortexr5 psv_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"empty_application": {"userdefname": "Empty Application(C)",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72 psxl_cortexr52 psx_cortexr52 psx_cortexa78 psxl_cortexa78",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"imgsel": {"userdefname": "Image Selector",
+"description": "ImgSel for Zynq Ultrascale+ MPSoC. The Image Selector  selects the image based on configuration parameters",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/imgsel",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"img_rcvry": {"userdefname": "Image Recovery",
+"description": "Image Recovery tool which writes  user selected images on the board.",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/img_rcvry",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5 psv_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc psxl_pmc psx_pmc",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm psxl_psm psx_psm",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:57.226
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:57.266
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:57.267
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:57.306
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:08:59.811
+!MESSAGE XSCT Command: [platform create -name {zynq_led_controller_1} -hw {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\zynq_led_controller.xsa} -out {C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace};platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:11.349
+!MESSAGE XSCT command with result: [platform create -name {zynq_led_controller_1} -hw {C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\zynq_led_controller.xsa} -out {C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace};platform write], Result: [null, Successfully saved  the platform at "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:11.386
+!MESSAGE XSCT Command: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.326
+!MESSAGE XSCT command with result: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.327
+!MESSAGE XSCT Command: [platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.390
+!MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.392
+!MESSAGE XSCT Command: [platform active {zynq_led_controller_1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.393
+!MESSAGE XSCT command with result: [platform active {zynq_led_controller_1}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.393
+!MESSAGE XSCT Command: [domain active {zynq_fsbl}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.394
+!MESSAGE XSCT command with result: [domain active {zynq_fsbl}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.395
+!MESSAGE XSCT Command: [domain active {standalone_ps7_cortexa9_0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.396
+!MESSAGE XSCT command with result: [domain active {standalone_ps7_cortexa9_0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.397
+!MESSAGE XSCT Command: [platform generate -quick], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:14.498
+!MESSAGE XSCT command with result: [platform generate -quick], Result: [null, Successfully generated platform at "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:15.581
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.319
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.320
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.329
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa], Result: [null, {"led_controller_0": {"hier_name": "led_controller_0",
+"type": "led_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.348
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.353
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.354
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.356
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/export/zynq_led_controller_1/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.381
+!MESSAGE XSCT Command: [catch {platform remove zynq_led_controller_1}], Thread: Worker-7: Deleting platform 'zynq_led_controller_1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.413
+!MESSAGE XSCT command with result: [catch {platform remove zynq_led_controller_1}], Result: [null, 0]. Thread: Worker-7: Deleting platform 'zynq_led_controller_1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.586
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.587
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller_1/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.601
+!MESSAGE XSCT Command: [catch {platform remove zynq_led_controller_1}], Thread: Worker-12: Deleting platform 'zynq_led_controller_1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:18.602
+!MESSAGE XSCT command with result: [catch {platform remove zynq_led_controller_1}], Result: [null, 0]. Thread: Worker-12: Deleting platform 'zynq_led_controller_1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:23.630
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:09:23.651
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/Dimitris/AppData/Local/Temp/hwspec_zynq_led_controller9891408037100675896/zynq_led_controller.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.913
+!MESSAGE XSCT Command: [platform active {zynq_led_controller}], Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.914
+!MESSAGE XSCT command with result: [platform active {zynq_led_controller}], Result: [null, ]. Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.915
+!MESSAGE XSCT Command: [domain active {zynq_fsbl}], Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.916
+!MESSAGE XSCT command with result: [domain active {zynq_fsbl}], Result: [null, ]. Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.916
+!MESSAGE XSCT Command: [::scw::get_hw_path], Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.917
+!MESSAGE XSCT command with result: [::scw::get_hw_path], Result: [null, C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa]. Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.917
+!MESSAGE XSCT Command: [::scw::regenerate_psinit C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.940
+!MESSAGE XSCT command with result: [::scw::regenerate_psinit C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Result: [null, ]. Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.940
+!MESSAGE XSCT Command: [::scw::get_mss_path], Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.955
+!MESSAGE XSCT command with result: [::scw::get_mss_path], Result: [null, C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss]. Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.956
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss ], Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.958
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss ], Result: [null, ]. Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.959
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.969
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-11: Initializing 'zynq_fsbl' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.973
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:27.985
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.005
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.007
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa ps7_cortexa9_0], Result: [null, led_controller_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_ttc_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.007
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.018
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"led_controller_0": {"name": "led_controller",
+"ver": "1.0",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.8",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.2",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.7",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.17",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.10",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.10",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "5.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.4",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.4",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "4.0",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ttc_0": {"name": "ttcps",
+"ver": "3.16",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.11",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.7",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.6",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.11",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.019
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.146
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Result: [null, {"led_controller_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"led_controller_v1_0": {"name": "led_controller",
+"version": "1.0",
+"repo": "C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/drivers/led_controller_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"processing_system7_0": {"version": "5.5",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"rst_ps7_0_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_clockc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_uart_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"uartps_v3_11": {"name": "uartps",
+"version": "3.11",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_pl310_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_pmu_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_qspi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"qspips_v3_10": {"name": "qspips",
+"version": "3.10",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_qspi_linear_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_axi_interconnect_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_cortexa9_0": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"cpu_cortexa9_v2_11": {"name": "cpu_cortexa9",
+"version": "2.11",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_cortexa9_1": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"cpu_cortexa9_v2_11": {"name": "cpu_cortexa9",
+"version": "2.11",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"ddrps_v1_2": {"name": "ddrps",
+"version": "1.2",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ddrps_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ethernet_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"emacps_v3_17": {"name": "emacps",
+"version": "3.17",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_17",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_usb_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"usbps_v2_7": {"name": "usbps",
+"version": "2.7",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_sd_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"sdps_v4_0": {"name": "sdps",
+"version": "4.0",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v4_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ttc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"ttcps_v3_16": {"name": "ttcps",
+"version": "3.16",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ttcps_v3_16",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpio_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"gpiops_v3_10": {"name": "gpiops",
+"version": "3.10",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddrc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_dev_cfg_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"devcfg_v3_7": {"name": "devcfg",
+"version": "3.7",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_xadc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"xadcps_v2_6": {"name": "xadcps",
+"version": "2.6",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ocmc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_coresight_comp_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"coresightps_dcc_v1_8": {"name": "coresightps_dcc",
+"version": "1.8",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpv_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_scuc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_globaltimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_intc_dist_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_l2cachec_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_dma_s": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"dmaps_v2_8": {"name": "dmaps",
+"version": "2.8",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_iop_bus_config_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_ram_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_ram_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_scugic_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"scugic_v5_0": {"name": "scugic",
+"version": "5.0",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v5_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scutimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"scutimer_v2_4": {"name": "scutimer",
+"version": "2.4",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scuwdt_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"scuwdt_v2_4": {"name": "scuwdt",
+"version": "2.4",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_slcr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_dma_ns": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"dmaps_v2_8": {"name": "dmaps",
+"version": "2.8",
+"repo": "C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_afi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_afi_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_afi_2": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_afi_3": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_m_axi_gp0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {C:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.148
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.153
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.153
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.157
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.158
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.162
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.162
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.166
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.166
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.170
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.171
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.175
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.176
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.179
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.180
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.184
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.185
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.188
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.189
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.195
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.195
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.201
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.201
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.205
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.206
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.210
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.210
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.214
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.215
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.239
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.240
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.244
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.244
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.248
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.249
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.253
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.261
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.265
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.265
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.269
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.269
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.300
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.301
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.304
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.305
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.308
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.309
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.313
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.313
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.317
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.318
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.321
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.347
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.351
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.351
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.355
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.356
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.361
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.379
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.383
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.383
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.387
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.387
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.409
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.410
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.414
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.415
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.418
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.425
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.429
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.430
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.433
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.462
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.465
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, xilffs xilrsa]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.465
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.473
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss], Result: [null, {"xilffs": "4.8",
+"xilrsa": "1.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.474
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.8"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.478
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.8"  && TYPE == "LIBRARY"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\lib\sw_services\xilffs_v4_8]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.479
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.8"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.489
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilffs" && VERSION == "4.8"  && TYPE == "LIBRARY"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\lib\sw_services\xilffs_v4_8]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.490
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.494
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\lib\sw_services\xilrsa_v1_6]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.495
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.505
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "xilrsa" && VERSION == "1.6"  && TYPE == "LIBRARY"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\lib\sw_services\xilrsa_v1_6]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.515
+!MESSAGE XSCT Command: [bsp reload], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.597
+!MESSAGE XSCT command with result: [bsp reload], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.612
+!MESSAGE XSCT Command: [domain active {standalone_domain}], Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.613
+!MESSAGE XSCT command with result: [domain active {standalone_domain}], Result: [null, ]. Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.613
+!MESSAGE XSCT Command: [::scw::get_hw_path], Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.614
+!MESSAGE XSCT command with result: [::scw::get_hw_path], Result: [null, C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa]. Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.614
+!MESSAGE XSCT Command: [::scw::regenerate_psinit C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.615
+!MESSAGE XSCT command with result: [::scw::regenerate_psinit C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa], Result: [null, ]. Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.616
+!MESSAGE XSCT Command: [::scw::get_mss_path], Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.632
+!MESSAGE XSCT command with result: [::scw::get_mss_path], Result: [null, C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss]. Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.633
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss ], Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.635
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss ], Result: [null, ]. Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.636
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.639
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-11: Initializing 'standalone_domain' bsp settings UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.703
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.708
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Result: [null, {"led_controller_0": {"name": "led_controller",
+"ver": "1.0",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.8",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.2",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.7",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.17",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.10",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.10",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "5.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.4",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.4",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "4.0",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ttc_0": {"name": "ttcps",
+"ver": "3.16",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.11",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.7",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.6",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.11",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.709
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.712
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.713
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.716
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.717
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.723
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.723
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.727
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.728
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.731
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.731
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.735
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.735
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.739
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.740
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.744
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.744
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.757
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.758
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.762
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.762
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.766
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.767
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.788
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.789
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.793
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.793
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.797
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.798
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.801
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.802
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.805
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.806
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.809
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.810
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.813
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.815
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.819
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.820
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.824
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.824
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.828
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.829
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.832
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.833
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.838
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.838
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.842
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.843
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.846
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.847
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.850
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.851
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.855
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.855
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.859
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.860
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.864
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.864
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.868
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.868
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.872
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.873
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.876
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.877
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.881
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.881
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.885
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.886
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.890
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.890
+!MESSAGE XSCT Command: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.894
+!MESSAGE XSCT command with result: [hsi get_property REPOSITORY [hsi get_sw_cores -filter {NAME == "generic" && VERSION == "3.1"  && TYPE == "DRIVER"}]], Result: [null, C:/Xilinx/Vitis/2022.2/data/embeddedsw\XilinxProcessorIPLib\drivers\generic_v3_1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.920
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.925
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.926
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.929
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:28.943
+!MESSAGE XSCT Command: [bsp reload], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-16 17:11:29.005
+!MESSAGE XSCT command with result: [bsp reload], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-04-16 17:18:51.405
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-04-16 17:18:51.406
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-04-16 17:18:51.406
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

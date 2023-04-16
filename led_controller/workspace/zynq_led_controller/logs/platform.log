@@ -1,0 +1,1606 @@
+TRACE::2023-04-16.17:06:10::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:10::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:10::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:10::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:10::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:10::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:10::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-04-16.17:06:12::SCWPlatform::Opened new HwDB with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-04-16.17:06:12::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynq_led_controller",
+	"systems":	[{
+			"systemName":	"zynq_led_controller",
+			"systemDesc":	"zynq_led_controller",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynq_led_controller"
+		}]
+}
+TRACE::2023-04-16.17:06:12::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-04-16.17:06:12::SCWDomain::checking for install qemu data   : 
+TRACE::2023-04-16.17:06:12::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-04-16.17:06:12::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:12::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2023-04-16.17:06:12::SCWPlatform::Generating the sources  .
+TRACE::2023-04-16.17:06:12::SCWBDomain::Generating boot domain sources.
+TRACE::2023-04-16.17:06:12::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:12::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:12::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-04-16.17:06:12::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:12::SCWMssOS::mss does not exists at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:12::SCWMssOS::Creating sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:12::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:12::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:12::SCWMssOS::Writing mss at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:12::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-04-16.17:06:12::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-16.17:06:12::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-16.17:06:12::SCWBDomain::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2023-04-16.17:06:22::SCWPlatform::Generating sources Done.
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-04-16.17:06:22::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::mss exists loading the mss file  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Opened the sw design from mss  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Adding the swdes entry C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-04-16.17:06:22::SCWMssOS::updating the scw layer about changes
+TRACE::2023-04-16.17:06:22::SCWMssOS::Opened the sw design.  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:22::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:22::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:22::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:22::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynq_led_controller",
+	"systems":	[{
+			"systemName":	"zynq_led_controller",
+			"systemDesc":	"zynq_led_controller",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynq_led_controller",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"57e26ecb3a211fb7465b7fac3a370b11",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWDomain::checking for install qemu data   : 
+TRACE::2023-04-16.17:06:22::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-04-16.17:06:22::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:22::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:22::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:22::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::mss does not exists at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Creating sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Writing mss at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:22::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-04-16.17:06:22::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-16.17:06:22::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-04-16.17:06:22::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-04-16.17:06:22::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-04-16.17:06:24::SCWMssOS::Writing the mss file completed C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynq_led_controller",
+	"systems":	[{
+			"systemName":	"zynq_led_controller",
+			"systemDesc":	"zynq_led_controller",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynq_led_controller",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"57e26ecb3a211fb7465b7fac3a370b11",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a1318685bf20d5543dccab5338463e09",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-04-16.17:06:24::SCWPlatform::Started generating the artifacts platform zynq_led_controller
+TRACE::2023-04-16.17:06:24::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-04-16.17:06:24::SCWPlatform::Started generating the artifacts for system configuration zynq_led_controller
+LOG::2023-04-16.17:06:24::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-04-16.17:06:24::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-04-16.17:06:24::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-04-16.17:06:24::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-04-16.17:06:24::SCWSystem::Checking the domain standalone_domain
+LOG::2023-04-16.17:06:24::SCWSystem::Not a boot domain 
+LOG::2023-04-16.17:06:24::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-04-16.17:06:24::SCWDomain::Generating domain artifcats
+TRACE::2023-04-16.17:06:24::SCWMssOS::Generating standalone artifcats
+TRACE::2023-04-16.17:06:24::SCWMssOS::Copying the qemu file from  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/resources/zynq_led_controller/standalone_domain/qemu_args.txt To C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/sw/zynq_led_controller/qemu/
+TRACE::2023-04-16.17:06:24::SCWMssOS::Copying the qemu file from  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/resources/zynq_led_controller/standalone_domain/qemu_args.txt To C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/sw/zynq_led_controller/standalone_domain/qemu/
+TRACE::2023-04-16.17:06:24::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::Completed writing the mss file at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-04-16.17:06:24::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-04-16.17:06:24::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-04-16.17:06:24::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-04-16.17:06:24::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-04-16.17:06:24::SCWMssOS::Copying to export directory.
+TRACE::2023-04-16.17:06:24::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-04-16.17:06:24::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2023-04-16.17:06:24::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2023-04-16.17:06:24::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-04-16.17:06:24::SCWSystem::Completed Processing the sysconfig zynq_led_controller
+LOG::2023-04-16.17:06:24::SCWPlatform::Completed generating the artifacts for system configuration zynq_led_controller
+TRACE::2023-04-16.17:06:24::SCWPlatform::Started preparing the platform 
+TRACE::2023-04-16.17:06:24::SCWSystem::Writing the bif file for system config zynq_led_controller
+TRACE::2023-04-16.17:06:24::SCWSystem::dir created 
+TRACE::2023-04-16.17:06:24::SCWSystem::Writing the bif 
+TRACE::2023-04-16.17:06:24::SCWPlatform::Started writing the spfm file 
+TRACE::2023-04-16.17:06:24::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-04-16.17:06:24::SCWPlatform::Completed generating the platform
+TRACE::2023-04-16.17:06:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:24::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:24::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:24::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:24::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:24::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynq_led_controller",
+	"systems":	[{
+			"systemName":	"zynq_led_controller",
+			"systemDesc":	"zynq_led_controller",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynq_led_controller",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"57e26ecb3a211fb7465b7fac3a370b11",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a1318685bf20d5543dccab5338463e09",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-04-16.17:06:24::SCWPlatform::updated the xpfm file.
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynq_led_controller",
+	"systems":	[{
+			"systemName":	"zynq_led_controller",
+			"systemDesc":	"zynq_led_controller",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynq_led_controller",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"57e26ecb3a211fb7465b7fac3a370b11",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a1318685bf20d5543dccab5338463e09",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynq_led_controller",
+	"systems":	[{
+			"systemName":	"zynq_led_controller",
+			"systemDesc":	"zynq_led_controller",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynq_led_controller",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"57e26ecb3a211fb7465b7fac3a370b11",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a1318685bf20d5543dccab5338463e09",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-04-16.17:06:25::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:25::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-04-16.17:06:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:25::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:25::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWWriter::formatted JSON is {
+	"platformName":	"zynq_led_controller",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"zynq_led_controller",
+	"platHandOff":	"C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/zynq_led_controller.xsa",
+	"platIntHandOff":	"<platformDir>/hw/zynq_led_controller.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zynq_led_controller",
+	"systems":	[{
+			"systemName":	"zynq_led_controller",
+			"systemDesc":	"zynq_led_controller",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zynq_led_controller",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"57e26ecb3a211fb7465b7fac3a370b11",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zynq_led_controller/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"a1318685bf20d5543dccab5338463e09",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-04-16.17:06:25::SCWPlatform::Clearing the existing platform
+TRACE::2023-04-16.17:06:25::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-04-16.17:06:25::SCWBDomain::clearing the fsbl build
+TRACE::2023-04-16.17:06:25::SCWMssOS::Removing the swdes entry for  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWMssOS::Removing the swdes entry for  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:25::SCWSystem::Clearing the domains completed.
+TRACE::2023-04-16.17:06:25::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform location is C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Removing the HwDB with name C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:25::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:25::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened new HwDB with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWReader::Active system found as  zynq_led_controller
+TRACE::2023-04-16.17:06:28::SCWReader::Handling sysconfig zynq_led_controller
+TRACE::2023-04-16.17:06:28::SCWDomain::checking for install qemu data   : 
+TRACE::2023-04-16.17:06:28::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-04-16.17:06:28::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-04-16.17:06:28::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::mss exists loading the mss file  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::Opened the sw design from mss  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::Adding the swdes entry C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-04-16.17:06:28::SCWMssOS::updating the scw layer about changes
+TRACE::2023-04-16.17:06:28::SCWMssOS::Opened the sw design.  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-04-16.17:06:28::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:28::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:28::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-04-16.17:06:28::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWReader::No isolation master present  
+TRACE::2023-04-16.17:06:28::SCWDomain::checking for install qemu data   : 
+TRACE::2023-04-16.17:06:28::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-04-16.17:06:28::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:28::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::mss exists loading the mss file  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::Opened the sw design from mss  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::Adding the swdes entry C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-04-16.17:06:28::SCWMssOS::updating the scw layer about changes
+TRACE::2023-04-16.17:06:28::SCWMssOS::Opened the sw design.  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:06:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:06:28::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:06:28::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-04-16.17:06:28::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:06:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:06:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:06:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:06:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:06:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:06:28::SCWReader::No isolation master present  
+TRACE::2023-04-16.17:11:27::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:27::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:27::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:27::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:27::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:27::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:27::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:27::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:11:27::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::In reload Mss file.
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-04-16.17:11:28::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::mss exists loading the mss file  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Opened the sw design from mss  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Adding the swdes entry C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-04-16.17:11:28::SCWMssOS::updating the scw layer about changes
+TRACE::2023-04-16.17:11:28::SCWMssOS::Opened the sw design.  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:11:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:11:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-04-16.17:11:28::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:11:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:11:28::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-04-16.17:11:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Removing the swdes entry for  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-04-16.17:11:28::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::In reload Mss file.
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:28::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-04-16.17:11:28::SCWMssOS::No sw design opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::mss exists loading the mss file  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Opened the sw design from mss  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Adding the swdes entry C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-04-16.17:11:28::SCWMssOS::updating the scw layer about changes
+TRACE::2023-04-16.17:11:28::SCWMssOS::Opened the sw design.  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Saving the mss changes C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-04-16.17:11:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-04-16.17:11:28::SCWMssOS::Commit changes completed.
+TRACE::2023-04-16.17:11:28::SCWPlatform::Trying to open the hw design at C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA given C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA absoulate path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:28::SCWPlatform::DSA directory C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw
+TRACE::2023-04-16.17:11:29::SCWPlatform:: Platform Path C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/hw/zynq_led_controller.xsa
+TRACE::2023-04-16.17:11:29::SCWPlatform:: Unique name xilinx:zedboard:led_controller:0.0
+TRACE::2023-04-16.17:11:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-04-16.17:11:29::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-04-16.17:11:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-04-16.17:11:29::SCWMssOS::Checking the sw design at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-04-16.17:11:29::SCWMssOS::Sw design exists and opened at  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-04-16.17:11:29::SCWMssOS::Removing the swdes entry for  C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/ps7_cortexa9_0/standalone_domain/bsp/system.mss

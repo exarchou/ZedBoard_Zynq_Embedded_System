@@ -1,0 +1,112 @@
+16:59:20 DEBUG : Logs will be stored at 'C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/IDE.log'.
+16:59:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\led_controller\workspace\temp_xsdb_launch_script.tcl
+16:59:22 INFO  : Registering command handlers for Vitis TCF services
+16:59:23 INFO  : Platform repository initialization has completed.
+16:59:25 INFO  : XSCT server has started successfully.
+16:59:25 INFO  : plnx-install-location is set to ''
+16:59:27 INFO  : Successfully done setting XSCT server connection channel  
+16:59:27 INFO  : Successfully done query RDI_DATADIR 
+16:59:27 INFO  : Successfully done setting workspace for the tool. 
+17:01:16 INFO  : Result from executing command 'getProjects': zynq_led_controller
+17:01:16 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:01:17 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:01:19 INFO  : Platform 'zynq_led_controller' is added to custom repositories.
+17:01:22 ERROR : 
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:890) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:945) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:930) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createCProject(AppCreationHandler.java:92) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:67) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:385) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100) ~[?:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) [org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+Caused by: org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.configure(CConfigBasedDescriptorManager.java:160) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:885) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	... 20 more
+17:01:22 ERROR : Failed to create application project
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:150) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:385) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100) ~[?:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) [org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+17:06:24 INFO  : Result from executing command 'getProjects': zynq_led_controller
+17:06:24 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:09:13 INFO  : Result from executing command 'getProjects': zynq_led_controller;zynq_led_controller_1
+17:09:13 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm;zynq_led_controller|C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/led_controller/workspace/zynq_led_controller/export/zynq_led_controller/zynq_led_controller.xpfm
+17:09:15 INFO  : Platform 'zynq_led_controller_1' is added to custom repositories.
+17:09:18 ERROR : 
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:890) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:945) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:930) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createCProject(AppCreationHandler.java:92) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:67) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:385) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100) ~[?:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) [org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+Caused by: org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.configure(CConfigBasedDescriptorManager.java:160) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:885) ~[org.eclipse.cdt.core_6.4.0.201802261533.jar:?]
+	... 20 more
+17:09:18 ERROR : Failed to create application project
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:150) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79) ~[?:?]
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75) ~[?:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312) ~[org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:385) ~[?:?]
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100) ~[?:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110) ~[?:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) [org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+17:09:18 ERROR : An unexpected exception occurred in the module 'reading platform'
+17:09:18 ERROR : An unexpected exception occurred in the module 'platform project logging'

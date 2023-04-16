@@ -1,0 +1,14 @@
+16:56:38 DEBUG : Logs will be stored at 'C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/project_1/workspace/IDE.log'.
+16:56:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\project_1\workspace\temp_xsdb_launch_script.tcl
+16:56:40 INFO  : Registering command handlers for Vitis TCF services
+16:56:42 INFO  : Platform repository initialization has completed.
+16:56:44 INFO  : XSCT server has started successfully.
+16:56:47 INFO  : Successfully done setting XSCT server connection channel  
+16:56:47 INFO  : plnx-install-location is set to ''
+16:56:47 INFO  : Successfully done query RDI_DATADIR 
+16:56:47 INFO  : Successfully done setting workspace for the tool. 
+17:15:23 INFO  : Result from executing command 'getProjects': design_1_wrapper
+17:15:23 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:15:24 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:15:25 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+17:15:36 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
