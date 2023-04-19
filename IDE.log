@@ -1,0 +1,9 @@
+17:31:28 DEBUG : Logs will be stored at 'C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/IDE.log'.
+17:31:30 INFO  : Registering command handlers for Vitis TCF services
+17:31:30 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\temp_xsdb_launch_script.tcl
+17:31:31 INFO  : Platform repository initialization has completed.
+17:31:33 INFO  : XSCT server has started successfully.
+17:31:36 INFO  : Successfully done setting XSCT server connection channel  
+17:31:36 INFO  : plnx-install-location is set to ''
+17:31:36 INFO  : Successfully done query RDI_DATADIR 
+17:31:36 INFO  : Successfully done setting workspace for the tool. 
