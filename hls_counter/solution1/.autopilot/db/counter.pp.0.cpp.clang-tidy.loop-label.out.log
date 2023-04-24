@@ -1,0 +1,10 @@
+C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\hls_counter\solution1\.autopilot\db\counter.pp.0.cpp:25762:5: warning: Added loop label VITIS_LOOP_10_1:   [xilinx-label-all-loops]
+    while(1)
+    ^~~~~
+    VITIS_LOOP_10_1: 
+C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\hls_counter\solution1\.autopilot\db\counter.pp.0.cpp:25762:5: note: FIX-IT applied suggested code changes
+C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\hls_counter\solution1\.autopilot\db\counter.pp.0.cpp:25770:9: warning: Added loop label VITIS_LOOP_18_2:   [xilinx-label-all-loops]
+        for(int i=0; i<450000000; i++);
+        ^~~
+        VITIS_LOOP_18_2: 
+C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\hls_counter\solution1\.autopilot\db\counter.pp.0.cpp:25770:9: note: FIX-IT applied suggested code changes

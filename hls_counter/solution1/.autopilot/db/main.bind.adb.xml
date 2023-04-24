@@ -1,0 +1,153 @@
+<stg><name>main</name>
+
+
+<trans_list>
+
+<trans id="9" from="1" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="12" from="2" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="1">
+
+<operation id="3" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="1" bw="0" op_0_bw="0" op_1_bw="32">
+<![CDATA[
+entry:0 %specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specbitsmap_ln0"/></StgValue>
+</operation>
+
+<operation id="4" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="2" bw="0" op_0_bw="0" op_1_bw="0">
+<![CDATA[
+entry:1 %spectopmodule_ln6 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty
+
+]]></Node>
+<StgValue><ssdm name="spectopmodule_ln6"/></StgValue>
+</operation>
+
+<operation id="5" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="3" bw="0" op_0_bw="0">
+<![CDATA[
+entry:2 %br_ln10 = br void %if.end
+
+]]></Node>
+<StgValue><ssdm name="br_ln10"/></StgValue>
+</operation>
+</state>
+
+<state id="2" st_id="2">
+
+<operation id="6" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="5" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
+<![CDATA[
+if.end:0 %specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str
+
+]]></Node>
+<StgValue><ssdm name="specpipeline_ln0"/></StgValue>
+</operation>
+
+<operation id="7" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="6" bw="0" op_0_bw="0" op_1_bw="0">
+<![CDATA[
+if.end:1 %specloopname_ln10 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0
+
+]]></Node>
+<StgValue><ssdm name="specloopname_ln10"/></StgValue>
+</operation>
+
+<operation id="8" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="7" bw="0" op_0_bw="0">
+<![CDATA[
+if.end:2 %br_ln10 = br void %if.end
+
+]]></Node>
+<StgValue><ssdm name="br_ln10"/></StgValue>
+</operation>
+</state>
+</state_list>
+
+
+<ports>
+</ports>
+
+
+<dataflows>
+<dataflow id="14" from="_ssdm_op_SpecBitsMap" to="specbitsmap_ln0" fromId="13" toId="3">
+</dataflow>
+<dataflow id="16" from="StgValue_15" to="specbitsmap_ln0" fromId="15" toId="3">
+</dataflow>
+<dataflow id="18" from="_ssdm_op_SpecTopModule" to="spectopmodule_ln6" fromId="17" toId="4">
+</dataflow>
+<dataflow id="20" from="empty" to="spectopmodule_ln6" fromId="19" toId="4">
+</dataflow>
+<dataflow id="22" from="_ssdm_op_SpecPipeline" to="specpipeline_ln0" fromId="21" toId="6">
+</dataflow>
+<dataflow id="24" from="StgValue_23" to="specpipeline_ln0" fromId="23" toId="6">
+</dataflow>
+<dataflow id="25" from="StgValue_15" to="specpipeline_ln0" fromId="15" toId="6">
+</dataflow>
+<dataflow id="27" from="StgValue_26" to="specpipeline_ln0" fromId="26" toId="6">
+</dataflow>
+<dataflow id="28" from="StgValue_15" to="specpipeline_ln0" fromId="15" toId="6">
+</dataflow>
+<dataflow id="30" from="p_str" to="specpipeline_ln0" fromId="29" toId="6">
+</dataflow>
+<dataflow id="32" from="_ssdm_op_SpecLoopName" to="specloopname_ln10" fromId="31" toId="7">
+</dataflow>
+<dataflow id="34" from="empty_0" to="specloopname_ln10" fromId="33" toId="7">
+</dataflow>
+</dataflows>
+
+
+</stg>

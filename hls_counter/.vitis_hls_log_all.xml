@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'main/ap_return' to 0." projectName="hls_counter" solutionName="solution1" date="2023-04-23T20:36:05.878+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] 'VITIS_LOOP_10_1' (../counter.cpp:10:22) in function 'main' is an infinite loop." projectName="hls_counter" solutionName="solution1" date="2023-04-23T20:36:05.571+0300" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-77] The top function 'main' (../counter.cpp:6) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops." projectName="hls_counter" solutionName="solution1" date="2023-04-23T20:36:05.413+0300" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

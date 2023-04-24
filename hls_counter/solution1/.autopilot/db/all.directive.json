@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "main",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/Users\/Dimitris\/Desktop\/ZedBoard_Zynq_Embedded_System\/hls_counter\/solution1\/csynth.tcl",
+          "sourceLine": "13",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "main"
+              }]
+          }
+        }]
+    }]}

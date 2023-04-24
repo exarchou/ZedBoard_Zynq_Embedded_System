@@ -1,0 +1,22 @@
+---
+MainSourceFile:  'C:/Users/Dimitris/Desktop/ZedBoard_Zynq_Embedded_System/hls_counter/solution1/.autopilot/db/counter.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_10_1:  '
+    FileOffset:      10
+    FilePath:        'C:\Users\Dimitris\Desktop\counter.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\hls_counter\solution1\.autopilot\db\counter.pp.0.cpp'
+        Offset:          754864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_10_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_18_2:  '
+    FileOffset:      18
+    FilePath:        'C:\Users\Dimitris\Desktop\counter.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\Dimitris\Desktop\ZedBoard_Zynq_Embedded_System\hls_counter\solution1\.autopilot\db\counter.pp.0.cpp'
+        Offset:          755035
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_18_2: '
+...
