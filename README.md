@@ -18,11 +18,15 @@ This project involves the building of AXI peripherals and the handling of GPIOs 
 
 ## Buttons and Switches AXI GPIOs
 
-Two AXI GPIO IPs where used for the driving of the onboard buttons and switches. The signals were associated with the corresponding pins using constraints. ARM Cortex-A9 MCU of ZYNQ was programmed using Xilinx SDK tool, and a custom script in C was
+Two AXI GPIO IPs where used for the driving of the onboard buttons and switches. The signals were associated with the corresponding pins using constraints. ARM Cortex-A9 MCU of ZYNQ was programmed using Xilinx SDK tool, and a custom script in C was written.
 
 
 
-<img src="images/AXI_GPIO.png" width='80%'>
+<img src="images/axi_inter.png" width='45%'>
+
+
+
+<img src="images/AXI_GPIO.png" width='70%'>
 
 
 
@@ -50,11 +54,13 @@ A custom C script was written for the programing of Cortex-A9 MCU. The purpose o
 
 
 
-## AXI LED Controller
+## AXI IP Creation
 
-An AXI GPIO IP was added in the block design and it was modified to have an 8-bit output for the led pins.
+A custom AXI LED IP was added and packaged. The package was imported from Vivado IP Catalog and added in the block design and it was modified to have an 8-bit output for the led pins.
 
 <img src="images/custom_led_controller_and_zynq.png" >
+
+An HDL wrapper was created with its constraints for ZedBoard.
 
 The MCU was again programmed using SDK, to set the value of the corresponding LEDs in a while loop.
 
@@ -64,7 +70,7 @@ The MCU was again programmed using SDK, to set the value of the corresponding LE
 
 The buttons and switches AXI GPIOs were added to the previous design, as well as an AXI BRAM Controller. The block memory is used to restore some information.
 
-<img src="images/all_peripherals.png" >
+<img src="images/all_peripherals.png" width="80%" >
 
 <img src="images/zynq_and_peripherals.png" >
 
@@ -119,7 +125,6 @@ The next step was the implementation of a counter in Verilog and VHDL by using V
 ```c++
 #include<iostream>
 #include<stdlib.h>
-//#include<conio.h>
 using namespace std;
 
 int main()
@@ -245,7 +250,7 @@ endmodule //main
 
 ```
 
-or in VHDL:
+VHDL:
 
 ```vhdl
 -- ==============================================================
@@ -292,11 +297,7 @@ architecture behav of main is
     signal ap_ST_fsm_state2_blk : STD_LOGIC;
     signal ap_ce_reg : STD_LOGIC;
 
-
 begin
-
-
-
 
     ap_CS_fsm_assign_proc : process(ap_clk)
     begin
